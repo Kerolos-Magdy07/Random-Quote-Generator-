@@ -1,0 +1,51 @@
+body{
+    background-color: FFFFFF;
+}
+.title h1 {
+    text-align: center;
+    margin: 100px auto;
+    margin-bottom: 30px;
+    /* box-shadow: 10px 10px 8px #a9a9a9; */
+    font-family: "Martian Mono", monospace;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.container{
+    background-color: #F0F4F9;
+    /* border: 3px solid #6e6969; */
+    box-shadow: 10px 10px 8px #a9a9a9;
+    border-radius: 15px;
+    width: 800px;
+    height: 350px;
+    padding-top: 50px;
+    margin: 0 auto;
+    text-align: center;
+    /* font-family: "Martian Mono", monospace; */
+}
+.container .item{
+    font-family: "Martian Mono", monospace;
+}
+.btn{
+    margin: 30px auto;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-radius: 15px;
+    border: 1px solid #000000;
+    font-family: "Martian Mono", monospace;
+    transition: transform .7s ;
+}
+
+.btn:hover{
+    background-color: #00570d;
+    color: white;
+    transform: scale(1.2);
+}
+.output{
+    margin: 2px auto;
+    font-size: 25px;
+    color: black;
+}
